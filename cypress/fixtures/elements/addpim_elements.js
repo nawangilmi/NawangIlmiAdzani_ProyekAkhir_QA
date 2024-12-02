@@ -1,0 +1,16 @@
+module.exports = {
+    imgBtn: "(//button[@class='oxd-icon-button oxd-icon-button--solid-main employee-image-action'])[1]",
+    firstnameField: "(//input[@placeholder='First Name'])[1]",
+    middlenameField: "(//input[@placeholder='Middle Name'])[1]",
+    lastnameField: "(//input[@placeholder='Last Name'])[1]",
+    idField: "(//input[@class='oxd-input oxd-input--active'])[2]",
+    loginSwitch: "(//span[@class='oxd-switch-input oxd-switch-input--active --label-right'])[1]",
+    usernameBtn: "(//input[@class='oxd-input oxd-input--active'])[3]",
+    enableRadio: "(//span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input'])[1]",
+    disableRadio: "(//span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input'])[2]",
+    passwordField: "(//input[@type='password'])[1]",
+    cnfrmpasswordField: "(//input[@type='password'])[2]",
+    cancelBtn: "(//button[normalize-space()='Cancel'])[1]",
+    saveBtn: "(//button[normalize-space()='Save'])[1]",
+    requiredMessage: "(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[1]",
+}
