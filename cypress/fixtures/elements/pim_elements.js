@@ -11,4 +11,9 @@ module.exports = {
     subunitDropdown: "(//div[@class='oxd-select-text oxd-select-text--focus'])[1]",
     resetBtn: "(//button[normalize-space()='Reset'])[1]",
     searchBtn: "(//button[normalize-space()='Search'])[1]",
+    confirmDeleteBtn: "(//button[normalize-space()='Yes, Delete'])[1]",
+    canceldeleteBtn:"(//button[normalize-space()='No, Cancel'])[1]",
+    closeDeleteBtn: "(//button[normalize-space()='×'])[1]",
+    checkBox: "(//span[contains(@class, 'oxd-checkbox-input')])[1]",
+    deleteselectedBtn: "(//button[normalize-space()='Delete Selected'])[1]",
 }

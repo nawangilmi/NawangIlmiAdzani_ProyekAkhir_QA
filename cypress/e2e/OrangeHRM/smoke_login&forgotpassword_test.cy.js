@@ -1,4 +1,3 @@
-
 import { LoginPage } from "../../fixtures/pages/login_page.cy.js"
 import { ForgotPasswordPage } from "../../fixtures/pages/forgetpassword_page.cy.js"
 
